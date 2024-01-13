@@ -8,7 +8,7 @@ The Final Project paper (in Spanish) can be found [here](https://oa.upm.es/77063
 
 
 The following is just a showcase of some of the most important functions.
-For a more in-depth demonstration of the possibilities available, check out the [JupyterNotebook demo].
+For a more in-depth demonstration of the possibilities available, check out the [JupyterNotebook demo](https://github.com/inigorrix/pyarcknot/blob/main/pyarcknot_demo.ipynb).
 
 The package consists of 4 modules:
 
@@ -55,17 +55,17 @@ It can also return the number of loops in a smoothed diagram
 kd.draw_diagrams(k8_21_xco)
 ```
 
-    Number of crossings = 8
+Number of crossings = 8
 
 ![arc_diagram](https://github.com/inigorrix/pyarcknot/blob/main/docs/smooth_a.png?raw=true)
 
-    |s_A D| = 5 
+|s_A D| = 5 
 
 ![arc_diagram](https://github.com/inigorrix/pyarcknot/blob/main/docs/arc_diagram.png?raw=true)
 
 ![arc_diagram](https://github.com/inigorrix/pyarcknot/blob/main/docs/smooth_b.png?raw=true)
 
-    |s_B D| = 1 
+|s_B D| = 1 
 
 
 ### Knot Calculate
