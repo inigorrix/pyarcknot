@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
         name='pyarcknot', 
-        version='0.0.1',
+        version='0.0.2',
         description='A package for studying the arc diagrams of mathematical knots',
         long_description=long_desc,
         long_description_content_type="text/markdown",
