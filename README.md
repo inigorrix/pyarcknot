@@ -8,7 +8,19 @@ The Final Project paper (in Spanish) can be found [here](https://oa.upm.es/77063
 
 
 The following is just a showcase of some of the most important functions.
-For a more in-depth demonstration of the possibilities available, check out the [JupyterNotebook demo](https://github.com/inigorrix/pyarcknot/blob/main/pyarcknot_demo.ipynb).
+For a more in-depth demonstration of the possibilities available, check out the [Jupyter Notebook demo](https://github.com/inigorrix/pyarcknot_demo/blob/main/pyarcknot_demo.ipynb).
+
+The package requires [NumPy](https://numpy.org/), [Matplotlib](https://matplotlib.org/), [Sympy](https://www.sympy.org/) and [Numba](https://numba.pydata.org/). They can be installed by running:
+
+```bash
+pip install numpy matplotlib sympy numba
+```
+
+To install the PyArcKnot package run:
+
+```bash
+pip install pyarcknot
+```
 
 The package consists of 4 modules:
 
@@ -88,7 +100,7 @@ $\displaystyle \frac{2}{t} - \frac{2}{t^{2}} + \frac{3}{t^{3}} - \frac{3}{t^{4}}
 
 ### Turaev Surface
 
-Turaev Surface uses [Matplotlib](https://matplotlib.org/) to render an image of the a 3D surface obtained from the diagram of the knot.
+Turaev Surface uses [Matplotlib](https://matplotlib.org/) to render a 3D surface obtained from the diagram of the knot.
 
 ```python
 ts.turaev_surf(k8_21_xco)
