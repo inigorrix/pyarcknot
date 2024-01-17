@@ -63,8 +63,10 @@ def draw_element(element, curve=5, res_c=4, res_z=6,
                                                          res_z=res_z))
     elif element == "line":
         draw_line(ax, coords0, coords1, res_z=res_z)
+    
     set_3daxes_equal(ax)
     ax.view_init(azim=view[0], elev=view[1])
+    plt.show()
 
 
 def set_3daxes_equal(ax):
@@ -133,3 +135,5 @@ def turaev_surf(xabo, figsize=None, size=20, height=10, res_z=6,
 
     ax.view_init(azim=view[0], elev=view[1])
     set_3daxes_equal(ax)
+    plt.show()
+
