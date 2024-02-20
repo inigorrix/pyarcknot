@@ -4,8 +4,7 @@ PyArcKnot
 PyArcKnot is a package for studying the arc diagrams of mathematical knots.
 
 It was developed as part of my Final Project for my Industrial Design Engineering Degree, with the help and support of Pedro González Manchón.
-The Final Project paper (in Spanish) can be found [here](https://oa.upm.es/77063/).
-
+Check out the [Final Project paper](https://oa.upm.es/77063/) (in Spanish) or the [Github page](https://github.com/inigorrix/knots_final_project) with an overview of the project and links to the public code.
 
 The following is just a showcase of some of the most important functions.
 For a more in-depth demonstration of the possibilities available, check out the [Jupyter Notebook demo](https://github.com/inigorrix/pyarcknot_demo/blob/main/pyarcknot_demo.ipynb).
